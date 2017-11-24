@@ -3,7 +3,7 @@ public class StringAndInt implements Comparable<StringAndInt> {
 
 	private String tag;
 	private int occurences;
-
+	
 	public StringAndInt(String tag, int occurences) {
 		// TODO Auto-generated constructor stub
 		super();
@@ -11,6 +11,15 @@ public class StringAndInt implements Comparable<StringAndInt> {
 		this.occurences = occurences;
 
 	}
+	
+	public String getTag() {
+		return tag;
+	}
+	
+	public int getOccurence() {
+		return occurences;
+	}
+
 
 	@Override
 	public int compareTo(StringAndInt stringAndInt) {
