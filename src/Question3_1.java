@@ -189,7 +189,7 @@ public class Question3_1 {
 		FileInputFormat.addInputPath(job1, new Path(input));
 		job1.setInputFormatClass(KeyValueTextInputFormat.class);
 
-		FileOutputFormat.setOutputPath(job1, new Path("intermediaire"));
+		FileOutputFormat.setOutputPath(job1, new Path(output));
 		job1.setOutputFormatClass(SequenceFileOutputFormat.class);
 
 		// Waiting for the first job to finish
@@ -204,7 +204,7 @@ public class Question3_1 {
 		Configuration conf = new Configuration();
         try {
 
-            Path seqFilePath = new Path("intermediaire/part-r-00000");
+            Path seqFilePath = new Path(output);
 
             SequenceFile.Reader reader = new SequenceFile.Reader(conf,
                     SequenceFile.Reader.file(seqFilePath));
