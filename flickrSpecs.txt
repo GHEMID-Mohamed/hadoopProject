@@ -1,4 +1,4 @@
-sFull Description of Hamada of wonderLand
+sFull Description of Hamada of wonderLand in Grenoble
 
 This dataset contains a list of photos and videos. This list is compiled from data available on Yahoo! Flickr. All the photos and videos provided in the list are licensed under one of the Creative Commons copyright licenses, and as such they can be used for benchmarking purposes as long as the photographer/videographer is credited for the original creation. In particular, the data in this dataset was made available under one of the following licenses:
 
